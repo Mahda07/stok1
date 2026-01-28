@@ -16,7 +16,7 @@ firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore();
 
 // Referensi ke koleksi bahan di Firestore
-const itemsCollection = db.collection("bukit_saila_items");
+const itemsCollection = db.collection("stok-makanan-minuman-bahan");
 
 // Elemen DOM
 const itemForm = document.getElementById('itemForm');
