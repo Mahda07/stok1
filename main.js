@@ -10,9 +10,9 @@ const firebaseConfig = {
   measurementId: "G-EVVQ80Q08C"
 };
 
-//inisialisasi firebase
-const aplikasi = initializeApp(firebaseConfig)
-const basisdata = getFirestore(aplikasi)
+// Inisialisasi Firebase
+firebase.initializeApp(firebaseConfig);
+const db = firebase.firestore();
 
 
 // Referensi ke koleksi bahan di Firestore
